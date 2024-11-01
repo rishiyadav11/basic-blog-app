@@ -1,0 +1,17 @@
+{
+  "name": "hh4",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "@prisma/extension-accelerate": "^1.2.1",
+    "hono": "^4.6.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "prisma": "^5.21.1",
+    "wrangler": "^3.83.0"
+  }
+}
